@@ -1,7 +1,7 @@
 def check_password_validity(passwords):     # def 함수 정의 한다. 
     results = []       # 검사 결과 저장리스트 생성
        # 조건 : 비밀번호 길이가 6자리 이상 9자리 이하
-        for pwd in passwords:   # for 반복문 사용
+    for pwd in passwords:   # for 반복문 사용
         if 6 <= len(pwd) <= 9: # 만약 길이가 6개자리 이상 9자리 이하면 
             results.append("yes")   # 조건에 해당하면 yes 출력
         else:   # 그 이외의 결과
